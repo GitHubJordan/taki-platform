@@ -1,0 +1,51 @@
+
+SOFTWARE LICENSE AGREEMENT - TAKI Platform
+
+Name of Software: TAKI Platform
+License Version: 1.0
+Effective Date: [Date of publication]
+Copyright Holder: TAKI
+
+1. DEFINITIONS
+- "Software": Refers to the TAKI Platform, including source code, binaries, documentation, designs, and any other materials provided.
+- "License": This usage agreement.
+- "Licensee": The individual or legal entity acquiring the right to use the Software under this License.
+- "Commercial Use": Use of the Software for the purpose of generating profit directly or indirectly.
+
+2. GRANT OF LICENSE
+The Copyright Holder grants the Licensee a non-exclusive, non-transferable, and limited license to:
+a) Install and use the Software in environments controlled by the Licensee, exclusively for internal Commercial Use.
+b) Make backup copies of the Software, provided such copies retain all original proprietary notices and copyrights.
+
+3. RESTRICTIONS
+The Licensee is expressly prohibited from:
+a) Copying, modifying, adapting, translating, or creating derivative works based on the Software, in whole or in part.
+b) Reverse engineering, decompiling, or disassembling the Software, except where permitted by applicable law.
+c) Selling, licensing, sublicensing, leasing, renting, distributing, or otherwise transferring the Software to third parties.
+d) Removing, obscuring, or altering any proprietary notices contained in the Software.
+e) Using the Software to provide services to third parties without express written authorization from the Copyright Holder.
+
+4. INTELLECTUAL PROPERTY
+All rights, title, and interest, including intellectual property rights in the Software, are and shall remain exclusively with the Copyright Holder. This License does not transfer any ownership rights in the Software.
+
+5. CONFIDENTIALITY
+The Licensee agrees to treat the Software and any related information as confidential and not disclose it to third parties without prior written consent.
+
+6. TERM AND TERMINATION
+This License is effective until terminated. The Copyright Holder may terminate this License immediately if the Licensee breaches any provision. Upon termination, the Licensee must destroy all copies of the Software.
+
+7. WARRANTY DISCLAIMER AND LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THE SOFTWARE.
+
+8. GOVERNING LAW
+This License shall be governed by the laws of Angola, without regard to conflict of laws principles.
+
+---
+
+COPYRIGHT NOTICE FOR SOURCE CODE FILES
+
+Copyright (c) 2025 TAKI. All rights reserved.
+Confidential Property. Restricted to TAKI and authorized licensees only.
+
+This software and its documentation are confidential and proprietary to TAKI.
+Any unauthorized use, reproduction, distribution, or disclosure is strictly prohibited.
