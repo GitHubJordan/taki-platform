@@ -17,8 +17,8 @@ Este tutorial é para ajudar todos os membros da equipe a usarem o GitHub corret
 ## 🧭 ETAPA 1: Clonar o repositório
 
 ```bash
-git clone https://github.com/GitHubJordan/TAKIApp.git
-cd JAMApp
+git clone https://github.com/GitHubJordan/taki-platform.git
+cd taki-platform
 ```
 
 ---
