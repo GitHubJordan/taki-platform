@@ -31,7 +31,7 @@
 ### 🎨 **Artur Martinho (Frontend)**
 
 - [ ] **Ambiente Frontend**:
-  - Inicializar React App (Vite)
+  - Inicializar React Native
   - Configurar ESLint/Prettier com padrão TAKI
   - Adicionar dependências base (React Router, Axios)
 
