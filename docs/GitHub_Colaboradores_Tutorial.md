@@ -63,6 +63,8 @@ git push origin feature/tela-login
 4. Adicione um título e uma breve descrição
 5. Clique em **Create Pull Request**
 
+> Atenção: Abrir Pull Request para **`dev`**.
+
 ---
 
 ## 🔁 ETAPA 6: Puxar atualizações do projeto (mantê-lo atualizado)
