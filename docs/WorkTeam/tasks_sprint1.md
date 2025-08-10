@@ -12,17 +12,17 @@
 
 ### 👤 **Jordan Adelino (Líder/Tech Lead)**
 
-- [ ] **Gestão do Repositório**:
+- [x] **Gestão do Repositório**:
   - Configurar proteção de branches (`main` e `dev`)
   - Definir templates para Issues e Pull Requests
   - Configurar CI/CD básico (GitHub Actions)
   
-- [ ] **GitHub Projects**:
+- [x] **GitHub Projects**:
   - Criar board com colunas: `Backlog`, `To Do`, `In Progress`, `Review`, `Done`
   - Associar milestones à sprint
   - Atribuir tasks aos membros
 
-- [ ] **Arquitetura Inicial**:
+- [x] **Arquitetura Inicial**:
   - Definir estrutura de pastas frontend/backend
   - Criar `api-specs.md` com endpoints essenciais
   - Documentar decisões técnicas em `ARCHITECTURE.md`
