@@ -2,6 +2,9 @@
 
 > **"O Seu Destino É Importante"** - Plataforma de mobilidade que transforma cada viagem em uma experiência memorável.
 
+![Backend CI](https://github.com/GitHubJordan/taki-platform/actions/workflows/backend-ci.yml/badge.svg)
+![Frontend CI](https://github.com/GitHubJordan/taki-platform/actions/workflows/frontend-ci.yml/badge.svg)
+
 ## Visão do Projeto
 A TAKI não é apenas um aplicativo de transporte, mas uma plataforma que integra:
 - **Viagens personalizadas** com registro automático de momentos
