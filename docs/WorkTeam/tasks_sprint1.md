@@ -6,8 +6,6 @@
 
 [![](https://mermaid.ink/img/pako:eNpFkU1ug0AMha8y8pqkhJ8As6jUhHQXqWpRF4Us3I4LKDCDBoiaRjlNFz1ILtbJJFG9svW-Z1v2AT6UIOBQauwqlqWFZCYe8hTrZs9eBpRi7DZsMrlnizzT-I5NpZjEnmXYb_vNhV9YYJk_067uTz-KCWJPqOmmL62e5mvSJbEONbKUdlcxteIqz6gfqL97xaYWePo1ba7AygKPeUpdo-xSZS3LDThm61oAH_RIDrSkWzyXcDjbChgqaqkAblKBeltAIY_G06F8U6q92bQaywr4Jza9qcZO4EBpjeYe_whJQXqpRjkAjyLbAvgBvoD7cTj1Yj8MvHmSePE8DhzYA_eSqRckSRwk_izyfX92dODbDnWncRS6Jry5G0WuF84cIFEPSq8vj7D_OP4BVmp9qA?type=png)](https://mermaid.live/edit#pako:eNpFkU1ug0AMha8y8pqkhJ8As6jUhHQXqWpRF4Us3I4LKDCDBoiaRjlNFz1ILtbJJFG9svW-Z1v2AT6UIOBQauwqlqWFZCYe8hTrZs9eBpRi7DZsMrlnizzT-I5NpZjEnmXYb_vNhV9YYJk_067uTz-KCWJPqOmmL62e5mvSJbEONbKUdlcxteIqz6gfqL97xaYWePo1ba7AygKPeUpdo-xSZS3LDThm61oAH_RIDrSkWzyXcDjbChgqaqkAblKBeltAIY_G06F8U6q92bQaywr4Jza9qcZO4EBpjeYe_whJQXqpRjkAjyLbAvgBvoD7cTj1Yj8MvHmSePE8DhzYA_eSqRckSRwk_izyfX92dODbDnWncRS6Jry5G0WuF84cIFEPSq8vj7D_OP4BVmp9qA)
 
----
-
 ## 👥 Responsabilidades por Função
 
 ### 👤 **Jordan Adelino (Líder/Tech Lead)**
@@ -102,14 +100,14 @@
   - Testes manuais E2E
   - Configurar SonarCloud
 
-### 🎨 **Ester Conceição (UI/UX)**
+### 🎨 **João Tavares (UI/UX)**
 - [ ] **Design System**:
   - Definir palette de cores no Figma
   - Criar componentes base: botões, inputs, cards
   - Estabelecer guia de tipografia
 
 - [ ] **Wireframes**:
-  - Tela de Login/Registo (mobile + web)
+  - Tela de Login/Registo (mobile)
   - Dashboard básico (após login)
   - Perfil de usuário (placeholder)
 
@@ -118,7 +116,23 @@
   - Responsividade cross-device
   - Export assets para desenvolvimento
 
----
+### 🎨 **Ester Conceição (Auxiliar de Designer)**
+- [ ] **Apoio ao Design System**:
+  - Revisar componentes criados no Figma
+  - Sugerir melhorias visuais para botões e inputs
+  - Garantir consistência de cores e tipografia
+
+- [ ] **Documentação Visual**:
+  - Organizar assets exportados para o time de desenvolvimento
+  - Atualizar guia de estilos conforme feedback dos membros
+
+- [ ] **Wireframes & Prototipagem**:
+  - Auxiliar na criação de telas secundárias (ex: recuperação de senha)
+  - Validar responsividade dos protótipos em diferentes dispositivos
+
+- [ ] **Comunicação**:
+  - Participar das reuniões de alinhamento de UI/UX
+  - Registrar decisões visuais importantes no repositório de design
 
 ## 📌 Regras de Trabalho
 
@@ -145,8 +159,6 @@ Para cada task:
 - [ ] Documentação atualizada
 - [ ] Deploy bem sucedido no ambiente staging
 
----
-
 ## 📅 Cronograma Diário
 
 | Dia       | Foco                          | Entregáveis Esperados                     |
@@ -156,8 +168,6 @@ Para cada task:
 | **Qua**   | Integração & Testes           | Fluxo auth completo funcionando           |
 | **Qui**   | Refinamento & Documentação    | Fix bugs, docs, testes                    |
 | **Sex**   | Revisão & Preparação Deploy   | Deploy staging, sprint review             |
-
----
 
 ## ✅ Definição de Pronto (DoD)
 
@@ -169,15 +179,11 @@ A sprint será considerada **bem-sucedida** quando:
 - [ ] Documentação básica disponível
 - [ ] Pipeline CI configurado (lint, build, test)
 
----
-
 ## 🛠️ Ferramentas Essenciais
 - **Comunicação**: WhatsApp (por enquanto)
 - **Gestão**: GitHub Projects + Issues
 - **Design**: Figma (compartilhamento em tempo real)
 - **Pair Programming**: VS Code Live Share
 - **Monitoramento**: Sentry (erros frontend/backend)
-
----
 
 > “A comunicação clara é o combustível do desenvolvimento remoto eficaz”
