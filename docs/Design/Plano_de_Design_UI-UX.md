@@ -214,24 +214,9 @@ Cada tela precisa de estados: vazio, carregando, erro, sucesso.
 
 ---
 
-# 9 — Handoff & assets que vou gerar (se quiser)
-
-Pronto para exportar e entregar ao time:
-
-* Paleta + tokens (JSON + CSS vars).
-* Guia tipográfico e spacing.
-* Component spec sheet (botões/cards/inputs) com redlines.
-* 6 low-fi wireframes (PNG/SVG) e 3 mockups hi-fi (Feed, Chamada, Viagem em Progresso) aplicando teu logo.
-* Arquivos prontos para Figma + nomeação dos assets (SVGs otimizados).
-
-Se quiser, já gero os **3 mockups hi-fi** (Home/Feed, Chamada/Map, Viagem em Progresso) aplicando exatamente o teu logo e paleta. Diga apenas “gera mockups” e eu preparo as imagens / specs.
-
----
-
-# 10 — Checklist rápido para integração com o back (o que o design deve mapear)
+# 9 — Checklist rápido para integração com o back (o que o design deve mapear)
 
 * Botão “Publicar” → chamar `POST /posts` + `POST /media/upload`.
 * Upload → mostrar estados (uploading/processing/ready).
 * Gerar Momento → endpoint assíncrono (`POST /viagens/{id}/gerar-momento`) → UI mostra processamento em background.
 * Gamification actions → `POST /gamificacao/pontos` e `POST /gamificacao/recompensas/resgatar`.
-
