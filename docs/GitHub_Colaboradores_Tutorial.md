@@ -8,6 +8,7 @@ Este tutorial é para ajudar todos os membros da equipe a usarem o GitHub corret
 ## ✅ Pré-requisitos
 
 1. Ter o Git instalado no computador: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
 2. Ter uma conta no GitHub: [https://github.com](https://github.com)
 3. Ter o VSCode (ou outro editor de sua preferência) instalado
 4. Ter acesso ao repositório do projeto (Jordan irá adicionar todos)
