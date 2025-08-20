@@ -43,6 +43,7 @@ async function loginUser(req,res){
 
 
     }catch(error){
+        console.log(error)
         return res.status(500).json({msg:"Erro no servidor tente mais tarde"})
     }
 

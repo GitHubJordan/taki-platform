@@ -41,6 +41,7 @@ function checartoken(req,res,next){
 
         
     } catch (error){
+        console.log(error)
         return res.status(400).json({msg:"token inválido!"})
     }
 
@@ -61,8 +62,7 @@ router.get('/me', checartoken,async(req,res)=>{
 
         return res.status(200).json({email:user.email,tipo:user.tipo})
     } catch (error) {
-
-       
+        console.log(error)
         return res.status(500).json({msg:"Erro no servidor tente mais tarde"})
 
     }

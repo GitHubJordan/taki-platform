@@ -1,5 +1,3 @@
-const { DataTypes } = require('sequelize')
-const Usuario = require('./User')
 const db = require('./db')
 
 const Perfil = db.seql.define("Perfil", {
@@ -11,22 +9,13 @@ const Perfil = db.seql.define("Perfil", {
     usuario_id: {
       type: db._sequel.INTEGER,
       allowNull: false,
-
-/*       references: {
-        model: "usuarios", // deve ser o mesmo que tableName do Usuario
-        key: "id"
-      },
-
-      onDelete: "CASCADE",
-      onUpdate: "CASCADE" */
-
     },
     nome_completo: {
       type: db._sequel.STRING(255),
       allowNull: false
     },
     foto_url: {
-      type: DataTypes.STRING(255)
+      type: db._sequel.STRING(255)
     },
     capa_url: {
       type: db._sequel.STRING(255)
@@ -57,11 +46,6 @@ const Perfil = db.seql.define("Perfil", {
     timestamps: false
   });
   
-/*//Associação 1 para 1
-Usuario.hasOne(Perfil, { foreignKey: "usuario_id" });
-Perfil.belongsTo(Usuario, { foreignKey: "usuario_id" });*/
-  
-
 //Perfil.sync({force:true})
 
 module.exports = Perfil;

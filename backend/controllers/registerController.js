@@ -50,16 +50,19 @@ async function registerUser(req,res){
                 }).then(()=>{
                     return res.status(200).json({msg:"Usuario registrado"})
                 }).catch((erro)=>{
+                    console.log(erro)
                     return res.status(500).json({msg:"Usuario não registrado"})
                 })
                 
                 
                 
             } catch (error){
+                console.log(error)
                 return res.status(500).json({msg:"Erro ao salvar o usuario tente mais tarde"})
             }
 
     }catch(erro){
+            console.log(erro)
             return res.status(500).json({msg:"Erro no servidor tente mais tarde"})
     }
 

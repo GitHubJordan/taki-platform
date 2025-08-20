@@ -18,5 +18,5 @@ module.exports = {
 sequel.authenticate().then(()=>{
     console.log('sucesso')
 }).catch((erro)=>{
-    console.log('falha na conexão')
+    console.log('falha na conexão'+erro)
 })
