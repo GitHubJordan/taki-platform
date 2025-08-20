@@ -10,7 +10,9 @@
     "sequelize": "^6.37.7"
   },
   "scripts": {
-  "lint": "eslint ."
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0"
+  }
 }
-}
-

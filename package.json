@@ -6,9 +6,10 @@
     "jest": "^30.0.5"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js",
     "lint": "eslint .",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "build": "echo nenhum build necessario"
   }
 }
