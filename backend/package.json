@@ -8,5 +8,9 @@
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.3",
     "sequelize": "^6.37.7"
-  }
+  },
+  "scripts": {
+  "lint": "eslint ."
 }
+}
+
