@@ -1,0 +1,33 @@
+### Testar rota de boas-vindas
+GET http://localhost:8081/auth/
+Content-Type: application/json
+
+
+### Registrar um novo usuário
+POST http://localhost:8081/auth/register
+Content-Type: application/json
+
+{
+  "telefone": "912345678",
+  "email": "teste_taki@takiteste.com",
+  "password": "takit1234",
+  "confirm": "takit1234",
+  "tipo": "passageiro"
+}
+
+
+### Login do usuário
+POST http://localhost:8081/auth/login
+Content-Type: application/json
+
+{
+  "email": "teste_taki@takiteste.com",
+  "password": "takit1234"
+}
+
+
+### Rota protegida - verificar dados do usuário logado
+# Substitua {{ token }} pelo JWT retornado no login
+GET http://localhost:8081/auth/me
+Content-Type: application/json
+Authorization: Bearer {{ token }}
